@@ -1,5 +1,5 @@
 {
-    "setprefix": "owo ",
+    "setprefix": "w",
     "useSlashCommands": false,
     "claimMail": false,
     "autoDaily": true,
@@ -87,7 +87,7 @@
             ]
         },
         "owo": {
-            "enabled": true,
+            "enabled": false,
             "prioritise": false,
             "cooldown": [
                 10,
@@ -95,10 +95,10 @@
             ]
         },
         "autoHuntBot": {
-            "enabled": false,
-            "cashToSpend": 10000,
+            "enabled": true,
+            "cashToSpend": 1d,
             "upgrader": {
-                "enabled": true,
+                "enabled": false,
                 "traits": {
                     "efficiency": true,
                     "duration": true,
@@ -226,7 +226,7 @@
         }
     },
     "giveawayJoiner": {
-        "enabled": false,
+        "enabled": true,
         "channelsToJoin": [
             "1099453684691243098",
             "1168797748343099444",
@@ -236,7 +236,7 @@
             40,
             100
         ],
-        "messageRangeToCheck": 6
+        "messageRangeToCheck": 4
     },
     "sleep": {
         "enabled": false,
@@ -251,7 +251,7 @@
         ]
     },
     "misspell": {
-        "enabled": false,
+        "enabled": true,
         "frequencyPercentage": 1,
         "baseDelay": [
             0.03,
@@ -329,13 +329,13 @@
                 "huntGem": true,
                 "empoweredGem": true,
                 "luckyGem": true,
-                "specialGem": true
+                "specialGem": false
             },
-            "dynamicSpecialGemUsage": true,
+            "dynamicSpecialGemUsage": false,
             "disableHuntIfNoGems": false
         },
-        "autoLootbox": true,
-        "autoCrate": true
+        "autoLootbox": false,
+        "autoCrate": false
     },
     "customCommands": {
         "enabled": false,
